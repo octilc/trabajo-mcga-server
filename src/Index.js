@@ -14,7 +14,7 @@ app.get("/", (req, res) => {
 
 app.post("/login", (req, res) =>{
   const myUser = {
-    email: "federico.gramajo@gmail.com",
+    email: "lucasaguilar.gt@gmail.com",
     password: "123456789"
   }
   if (req.body.email !== myUser.email) {
